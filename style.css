@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #222;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #0ff;
+}
+
+.otp-box {
+  font-family: 'Courier New', Courier, monospace; /* Changed from DS-DIGI */
+  font-size: 36px;
+  letter-spacing: 4px;
+  padding: 15px 0;
+  margin: 15px 0;
+  color: #0f0;
+  background: #000;
+  border: 2px dashed #0f0;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.controls {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.controls label {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #0ff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00b3b3;
+}
+
+.copied {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #0f0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
